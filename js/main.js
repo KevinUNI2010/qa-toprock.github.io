@@ -101,3 +101,50 @@ var swiper__galeria = new Swiper(".swiper__galeria", {
   //     prevEl: ".swiper-button-prev__galeria",
   //   },
 });
+
+// coleccion
+var swiper = new Swiper(".swiper__coleccion", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 3,
+  spaceBetween: 150,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 0,
+    modifier: 0,
+    // slideShadows: true,
+  },
+  pagination: {
+    //     el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+//
+let collapseList = document.querySelectorAll(".section__coleccion--item");
+collapseList.forEach((collapse) => {
+  let botonesTop = collapse.querySelectorAll(
+    ".guias-interactivas-vista_right-img"
+  );
+  let ImagenesTop = collapse.querySelectorAll(
+    ".guias-interactivas-vista_principal-img"
+  );
+
+  botonesTop.forEach((boton) => {
+    boton.addEventListener("click", function (e) {
+      botonesTop.forEach((boton) => {
+        boton.classList.remove("active");
+      });
+      this.classList.add("active");
+
+      ImagenesTop.forEach((imagen) => {
+        imagen.classList.remove("active");
+      });
+      let cadena = ".imagen_padre-" + this.getAttribute("data-botonvista");
+      let ImagenPrincipal = document.querySelector(cadena);
+      ImagenPrincipal.classList.add("active");
+    });
+  });
+});

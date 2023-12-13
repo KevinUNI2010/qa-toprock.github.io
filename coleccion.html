@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=Top, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Top Rock</title>
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- theme -->
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/conocenos.css" />
+    <link rel="stylesheet" href="css/coleccion.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header header__conocenos active">
+      <div class="header__content">
+        <div class="header__body">
+          <div class="header__logo">
+            <a href="/" class="header__logo--link">
+              <span>
+                <picture>
+                  <source
+                    media="(min-width:1080px)"
+                    srcset="images/logo-header-mobile.png"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="images/logo-header-mobile.png"
+                  />
+                  <img
+                    alt=""
+                    height="63"
+                    loading="lazy"
+                    src="images/logo-header-mobile.png"
+                    width="110"
+                  />
+                </picture>
+              </span>
+            </a>
+          </div>
+          <div class="header__enlaces" id="header__enlaces">
+            <ul class="header__enlaces--list">
+              <li class="header__enlaces--item">
+                <a class="header__enlaces--link" href="/">HOME</a>
+              </li>
+              <li class="header__enlaces--item">
+                <a class="header__enlaces--link" href="conocenos.html"
+                  >CONÓCENOS</a
+                >
+              </li>
+              <li class="header__enlaces--item">
+                <a class="header__enlaces--link" href="coleccion.html"
+                  >COLECCIÓN</a
+                >
+              </li>
+              <li class="header__enlaces--item">
+                <a class="header__enlaces--link" href="galeria.html">GALERÍA</a>
+              </li>
+              <li class="header__enlaces--item">
+                <a class="header__enlaces--link" href="encuentranos.html"
+                  >ENCUENTRANOS</a
+                >
+              </li>
+              <li class="header__enlaces--item">
+                <a class="header__enlaces--link" href="#">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="header__hamburger" id="header__hamburger">
+            <span class="header__hamburger-icon">&nbsp;</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+
+    <div class="section__coleccion">
+      <h1 class="section__coleccion--titulo">Colección</h1>
+
+      <div class="section__coleccion--list">
+        <div class="section__coleccion--item">
+          <div class="section__coleccion--buttons">
+            <button
+              class="section__coleccion--button guias-interactivas-vista_right-img active"
+              data-botonvista="vista1"
+            >
+              Petit
+            </button>
+            <button
+              class="section__coleccion--button guias-interactivas-vista_right-img"
+              data-botonvista="vista2"
+            >
+              Grand
+            </button>
+          </div>
+          <div class="section__coleccion--contenidos">
+            <div
+              class="section__coleccion--contenido guias-interactivas-vista_principal-img imagen_padre-vista1 active"
+            >
+              <div class="section__coleccion--contenido__fondo">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="images/coleccion-fondo-1-desktop.png"
+                  />
+                  <img
+                    alt=""
+                    height="299"
+                    loading="lazy"
+                    src="images/coleccion-fondo-1-mobile.png"
+                    width="268"
+                  />
+                </picture>
+              </div>
+              <div class="swiper__coleccion--content">
+                <div class="swiper swiper__coleccion">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section__coleccion--info">
+                <h2 class="section__coleccion--info__titulo">
+                  “Menos es más” <br />
+                  es una de las claves <br />
+                  para lucir cool
+                </h2>
+                <div class="section__coleccion--info__subtitulo">
+                  <p>
+                    Los Liverpool o también conocidos como “Teashades”, son un
+                    símbolo de moda retro. Este modelo de forma redonda, nació
+                    en la década de los años 70 y añadirá un toque vintage a tu
+                    look.
+                  </p>
+                  <p>
+                    Viene en dos tamaños, Grand y Petit en colores, Blu, Light
+                    blu, Caramel, Verde vintage, Verde kriptonita, para que
+                    elijas el que mejor va con tu estilo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="section__coleccion--contenido guias-interactivas-vista_principal-img imagen_padre-vista2"
+            >
+              <div class="section__coleccion--contenido__fondo">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="images/coleccion-fondo-1-desktop.png"
+                  />
+                  <img
+                    alt=""
+                    height="299"
+                    loading="lazy"
+                    src="images/coleccion-fondo-1-mobile.png"
+                    width="268"
+                  />
+                </picture>
+              </div>
+              <div class="swiper__coleccion--content">
+                <div class="swiper swiper__coleccion">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">bbbbbbbbbb</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section__coleccion--info">
+                <h2 class="section__coleccion--info__titulo">
+                  “Menos es más” <br />
+                  es una de las claves <br />
+                  para lucir cool
+                </h2>
+                <div class="section__coleccion--info__subtitulo">
+                  <p>
+                    Los Liverpool o también conocidos como “Teashades”, son un
+                    símbolo de moda retro. Este modelo de forma redonda, nació
+                    en la década de los años 70 y añadirá un toque vintage a tu
+                    look.
+                  </p>
+                  <p>
+                    Viene en dos tamaños, Grand y Petit en colores, Blu, Light
+                    blu, Caramel, Verde vintage, Verde kriptonita, para que
+                    elijas el que mejor va con tu estilo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section__coleccion--item">
+          <div class="section__coleccion--buttons">
+            <button
+              class="section__coleccion--button guias-interactivas-vista_right-img active"
+              data-botonvista="vista3"
+            >
+              Petit
+            </button>
+            <button
+              class="section__coleccion--button guias-interactivas-vista_right-img"
+              data-botonvista="vista4"
+            >
+              Grand
+            </button>
+          </div>
+          <div class="section__coleccion--contenidos">
+            <div
+              class="section__coleccion--contenido guias-interactivas-vista_principal-img imagen_padre-vista3 active"
+            >
+              <div class="section__coleccion--contenido__fondo">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="images/coleccion-fondo-1-desktop.png"
+                  />
+                  <img
+                    alt=""
+                    height="299"
+                    loading="lazy"
+                    src="images/coleccion-fondo-1-mobile.png"
+                    width="268"
+                  />
+                </picture>
+              </div>
+              <div class="swiper__coleccion--content">
+                <div class="swiper swiper__coleccion">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section__coleccion--info">
+                <h2 class="section__coleccion--info__titulo">
+                  Una revolucionaria <br />
+                  interpretación de lo <br />
+                  clásico
+                </h2>
+                <div class="section__coleccion--info__subtitulo">
+                  <p>
+                    El modelo Aviator en forma de gota ocultan buena parte de la
+                    cara. Y esto es así porque en grandes altitudes los pilotos
+                    en los años 30 y 40´s necesitaban protegerse de la luz
+                    brillante del sol.
+                  </p>
+                  <p>
+                    Los encuentras en tamaño estándar, en los colores, Blu,
+                    Light blu, Caramel, Verde vintage, Verde kriptonita para que
+                    elijas los que mejor van contigo. Un Aviator ha demostrado
+                    ser una tendencia fuerte en el mundo de la moda
+                    contemporánea.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="section__coleccion--contenido guias-interactivas-vista_principal-img imagen_padre-vista4"
+            >
+              <div class="section__coleccion--contenido__fondo">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="images/coleccion-fondo-1-desktop.png"
+                  />
+                  <img
+                    alt=""
+                    height="299"
+                    loading="lazy"
+                    src="images/coleccion-fondo-1-mobile.png"
+                    width="268"
+                  />
+                </picture>
+              </div>
+              <div class="swiper__coleccion--content">
+                <div class="swiper swiper__coleccion">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">bbbbbbbbbb</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="coleccion__card">
+                        <div class="coleccion__card--fondo">
+                          <picture>
+                            <source
+                              media="(min-width:768px)"
+                              srcset="images/coleccion-liverpool-1-desktop.png"
+                            />
+                            <img
+                              alt=""
+                              height="299"
+                              loading="lazy"
+                              src="images/coleccion-liverpool-1-mobile.png"
+                              width="268"
+                            />
+                          </picture>
+                        </div>
+                        <div class="coleccion__card--info">
+                          <p class="coleccion__card--titulo">Liverpool</p>
+                          <p class="coleccion__card--subtitulo">
+                            Verde vintage
+                          </p>
+                          <div class="coleccion__card--colores">
+                            <div class="coleccion__card--color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section__coleccion--info">
+                <h2 class="section__coleccion--info__titulo">
+                  Una revolucionaria <br />
+                  interpretación de lo <br />
+                  clásico
+                </h2>
+                <div class="section__coleccion--info__subtitulo">
+                  <p>
+                    El modelo Aviator en forma de gota ocultan buena parte de la
+                    cara. Y esto es así porque en grandes altitudes los pilotos
+                    en los años 30 y 40´s necesitaban protegerse de la luz
+                    brillante del sol.
+                  </p>
+                  <p>
+                    Los encuentras en tamaño estándar, en los colores, Blu,
+                    Light blu, Caramel, Verde vintage, Verde kriptonita para que
+                    elijas los que mejor van contigo. Un Aviator ha demostrado
+                    ser una tendencia fuerte en el mundo de la moda
+                    contemporánea.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer__content">
+          <div class="footer__top">
+            <a href="/" class="footer__logo">
+              <span>
+                <picture>
+                  <source
+                    media="(min-width:1024px)"
+                    srcset="images/logo-footer-desktop.png"
+                  />
+                  <img
+                    alt=""
+                    height="70"
+                    loading="lazy"
+                    src="images/logo-footer-mobile.png"
+                    width="1216"
+                  />
+                </picture>
+              </span>
+            </a>
+            <div class="footer__proteccion">
+              <span class="footer__proteccion-info">PROTECCIÓN</span>
+              <span class="footer__proteccion-img">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="images/proteccion-footer-desktop.png"
+                  />
+                  <img
+                    alt=""
+                    height="70"
+                    loading="lazy"
+                    src="images/proteccion-footer-mobile.png"
+                    width="1216"
+                  />
+                </picture>
+              </span>
+            </div>
+          </div>
+          <div class="footer__center">
+            <ul>
+              <li>
+                <a href="conocenos.html">Conócenos</a>
+              </li>
+              <li>
+                <a href="coleccion.html">Colección</a>
+              </li>
+              <li>
+                <a href="galeria.html">Galería</a>
+              </li>
+              <li>
+                <a href="encuentranos.html">Encuéntranos</a>
+              </li>
+              <li>
+                <a href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__horario">
+            <p>
+              Horario de atención: <br />
+              De lunes a viernes de <b> 10 a.m. a 5 p.m.</b> <br />
+              a excepción de feriados.
+            </p>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__bottom-left">
+              <a
+                class="footer__bottom-enlace footer__bottom-telefono"
+                href="tel:+51907366581"
+              >
+                <span class="footer__bottom-enlace-icono"
+                  ><svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.51667 8.99167C6.71667 11.35 8.65 13.2833 11.0083 14.4833L12.8417 12.65C13.075 12.4167 13.4 12.35 13.6917 12.4417C14.625 12.75 15.625 12.9167 16.6667 12.9167C16.8877 12.9167 17.0996 13.0045 17.2559 13.1607C17.4122 13.317 17.5 13.529 17.5 13.75V16.6667C17.5 16.8877 17.4122 17.0996 17.2559 17.2559C17.0996 17.4122 16.8877 17.5 16.6667 17.5C12.9094 17.5 9.30609 16.0074 6.64932 13.3507C3.99256 10.6939 2.5 7.09057 2.5 3.33333C2.5 3.11232 2.5878 2.90036 2.74408 2.74408C2.90036 2.5878 3.11232 2.5 3.33333 2.5H6.25C6.47101 2.5 6.68298 2.5878 6.83926 2.74408C6.99554 2.90036 7.08333 3.11232 7.08333 3.33333C7.08333 4.375 7.25 5.375 7.55833 6.30833C7.65 6.6 7.58333 6.925 7.35 7.15833L5.51667 8.99167Z"
+                      fill="#EDFAFF"
+                    />
+                  </svg>
+                </span>
+                <span class="footer__bottom-enlace-info">+51 907 366 581</span>
+              </a>
+              <a
+                class="footer__bottom-enlace footer__bottom-correo"
+                href="mailto:info@toptock.pe"
+              >
+                <span class="footer__bottom-enlace-icono"
+                  ><svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.3332 4.99992C18.3332 4.08325 17.5832 3.33325 16.6665 3.33325H3.33317C2.4165 3.33325 1.6665 4.08325 1.6665 4.99992V14.9999C1.6665 15.9166 2.4165 16.6666 3.33317 16.6666H16.6665C17.5832 16.6666 18.3332 15.9166 18.3332 14.9999V4.99992ZM16.6665 4.99992L9.99984 9.16658L3.33317 4.99992H16.6665ZM16.6665 14.9999H3.33317V6.66659L9.99984 10.8333L16.6665 6.66659V14.9999Z"
+                      fill="#EDFAFF"
+                    />
+                  </svg>
+                </span>
+                <span class="footer__bottom-enlace-info">info@toptock.pe</span>
+              </a>
+            </div>
+            <div class="footer__bottom-right">
+              <a href="#" target="_blank">
+                <span
+                  ><svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.6668 11.2501H13.7502L14.5835 7.91675H11.6668V6.25008C11.6668 5.39175 11.6668 4.58341 13.3335 4.58341H14.5835V1.78341C14.3118 1.74758 13.286 1.66675 12.2027 1.66675C9.94016 1.66675 8.3335 3.04758 8.3335 5.58341V7.91675H5.8335V11.2501H8.3335V18.3334H11.6668V11.2501Z"
+                      fill="#EDFAFF"
+                    />
+                  </svg>
+                </span>
+              </a>
+              <a href="#" target="_blank">
+                <span>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.0008 7.50008C9.33777 7.50008 8.70189 7.76347 8.23305 8.23231C7.76421 8.70115 7.50081 9.33704 7.50081 10.0001C7.50081 10.6631 7.76421 11.299 8.23305 11.7678C8.70189 12.2367 9.33777 12.5001 10.0008 12.5001C10.6639 12.5001 11.2997 12.2367 11.7686 11.7678C12.2374 11.299 12.5008 10.6631 12.5008 10.0001C12.5008 9.33704 12.2374 8.70115 11.7686 8.23231C11.2997 7.76347 10.6639 7.50008 10.0008 7.50008ZM10.0008 5.83341C11.1059 5.83341 12.1657 6.2724 12.9471 7.0538C13.7285 7.8352 14.1675 8.89501 14.1675 10.0001C14.1675 11.1052 13.7285 12.165 12.9471 12.9464C12.1657 13.7278 11.1059 14.1667 10.0008 14.1667C8.89574 14.1667 7.83594 13.7278 7.05454 12.9464C6.27313 12.165 5.83415 11.1052 5.83415 10.0001C5.83415 8.89501 6.27313 7.8352 7.05454 7.0538C7.83594 6.2724 8.89574 5.83341 10.0008 5.83341ZM15.4175 5.62508C15.4175 5.90135 15.3077 6.1663 15.1124 6.36165C14.917 6.557 14.6521 6.66675 14.3758 6.66675C14.0995 6.66675 13.8346 6.557 13.6392 6.36165C13.4439 6.1663 13.3341 5.90135 13.3341 5.62508C13.3341 5.34881 13.4439 5.08386 13.6392 4.88851C13.8346 4.69316 14.0995 4.58341 14.3758 4.58341C14.6521 4.58341 14.917 4.69316 15.1124 4.88851C15.3077 5.08386 15.4175 5.34881 15.4175 5.62508ZM10.0008 3.33341C7.93915 3.33341 7.60248 3.33925 6.64331 3.38175C5.98998 3.41258 5.55165 3.50008 5.14498 3.65841C4.80466 3.78336 4.49699 3.98363 4.24498 4.24425C3.98415 4.49625 3.78361 4.8039 3.65831 5.14425C3.49998 5.55258 3.41248 5.99008 3.38248 6.64258C3.33915 7.56258 3.33331 7.88425 3.33331 10.0001C3.33331 12.0626 3.33915 12.3984 3.38165 13.3576C3.41248 14.0101 3.49998 14.4492 3.65748 14.8551C3.79915 15.2176 3.96581 15.4784 4.24248 15.7551C4.52331 16.0351 4.78415 16.2026 5.14248 16.3409C5.55415 16.5001 5.99248 16.5884 6.64248 16.6184C7.56248 16.6617 7.88415 16.6667 9.99998 16.6667C12.0625 16.6667 12.3983 16.6609 13.3575 16.6184C14.0091 16.5876 14.4475 16.5001 14.855 16.3426C15.195 16.217 15.5025 16.0168 15.755 15.7567C16.0358 15.4767 16.2033 15.2159 16.3416 14.8567C16.5 14.4467 16.5883 14.0084 16.6183 13.3567C16.6616 12.4376 16.6666 12.1151 16.6666 10.0001C16.6666 7.93841 16.6608 7.60175 16.6183 6.64258C16.5875 5.99091 16.4991 5.55091 16.3416 5.14425C16.216 4.80426 16.0159 4.49673 15.7558 4.24425C15.5039 3.98329 15.1962 3.78272 14.8558 3.65758C14.4475 3.49925 14.0091 3.41175 13.3575 3.38175C12.4383 3.33841 12.1175 3.33341 10.0008 3.33341ZM10.0008 1.66675C12.265 1.66675 12.5475 1.67508 13.4366 1.71675C14.3233 1.75841 14.9283 1.89758 15.4591 2.10425C16.0091 2.31591 16.4725 2.60258 16.9358 3.06508C17.3596 3.48166 17.6874 3.98557 17.8966 4.54175C18.1025 5.07258 18.2425 5.67758 18.2841 6.56508C18.3233 7.45341 18.3341 7.73591 18.3341 10.0001C18.3341 12.2642 18.3258 12.5467 18.2841 13.4351C18.2425 14.3226 18.1025 14.9267 17.8966 15.4584C17.688 16.0149 17.3601 16.5189 16.9358 16.9351C16.5191 17.3587 16.0152 17.6865 15.4591 17.8959C14.9283 18.1017 14.3233 18.2417 13.4366 18.2834C12.5475 18.3226 12.265 18.3334 10.0008 18.3334C7.73665 18.3334 7.45415 18.3251 6.56498 18.2834C5.67831 18.2417 5.07415 18.1017 4.54248 17.8959C3.98609 17.6871 3.48209 17.3592 3.06581 16.9351C2.64201 16.5186 2.31411 16.0146 2.10498 15.4584C1.89831 14.9276 1.75915 14.3226 1.71748 13.4351C1.67748 12.5467 1.66748 12.2642 1.66748 10.0001C1.66748 7.73591 1.67581 7.45341 1.71748 6.56508C1.75915 5.67675 1.89831 5.07341 2.10498 4.54175C2.31351 3.98523 2.64148 3.48118 3.06581 3.06508C3.48221 2.64111 3.98617 2.31319 4.54248 2.10425C5.07331 1.89758 5.67748 1.75841 6.56498 1.71675C7.45415 1.67758 7.73665 1.66675 10.0008 1.66675Z"
+                      fill="#EDFAFF"
+                    />
+                  </svg>
+                </span>
+              </a>
+
+              <a href="#" target="_blank">
+                <span>
+                  <svg
+                    width="16"
+                    height="18"
+                    viewBox="0 0 16 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_750_1062)">
+                      <path
+                        d="M12.2168 3.335C11.5902 2.61965 11.2449 1.70098 11.2451 0.75H8.41264V12.1167C8.3908 12.7318 8.13111 13.3144 7.68826 13.7419C7.24542 14.1693 6.65397 14.4082 6.03848 14.4083C4.73681 14.4083 3.65514 13.345 3.65514 12.025C3.65514 10.4483 5.17681 9.26583 6.74431 9.75167V6.855C3.58181 6.43333 0.813477 8.89 0.813477 12.025C0.813477 15.0775 3.34348 17.25 6.02931 17.25C8.90764 17.25 11.2451 14.9125 11.2451 12.025V6.25917C12.3937 7.08403 13.7727 7.52659 15.1868 7.52417V4.69167C15.1868 4.69167 13.4635 4.77417 12.2168 3.335Z"
+                        fill="white"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_750_1062">
+                        <rect width="16" height="18" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="footer__terminos">
+            <a href="#">Términos y Condiciones</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
